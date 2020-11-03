@@ -1,1 +1,1 @@
-# [Triple Sphere](https://1iyiwei.github.io/sss-siga20/) #
+# [Spherical Light Integration over Spherical Caps via Spherical Harmonics](https://Hearwindsaying.github.io/sss-siga20/) #
