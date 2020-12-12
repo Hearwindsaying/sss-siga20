@@ -36,10 +36,28 @@ We present triple sphere, a method to integrate spherical lights over spherical 
 
 </blockquote>
 
+<h2> Abstract </h2>
+
+<blockquote>
+
+Spherical area light sources are widely used in synthetic rendering. 
+However, traditional Monte Carlo methods can require an excessive number of samples for sufficient accuracy. 
+We propose a Spherical Harmonics (SH) based method to provide a trade-off between performance and accuracy. 
+Our key idea is an analytical integration of SH over spherical caps. 
+The SH integration is first decomposed into a weighted sum of Zonal Harmonics (ZH) integration, which could be evaluated using recurrence formulae. 
+The resulting integration could then be used for rendering spherical area lights efficiently, saving 50% light samples at best while maintaining competitive accuracy. 
+Our method can easily fit into an existing SH based rendering framework to support near-field sphere lighting.
+
+</blockquote>
+
 
 <h2> Available information </h2>
 
 <blockquote>
+
+<a href="https://dl.acm.org/doi/10.1145/3410700.3425427">
+<img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://dl.acm.org/" alt = "paper (ACM DL)">
+</a>
 
 <a href="https://hal.archives-ouvertes.fr/hal-02950829/">
 <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://hal.archives-ouvertes.fr/" alt = "paper (HAL)">
